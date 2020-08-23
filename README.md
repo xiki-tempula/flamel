@@ -1,7 +1,12 @@
-# Flamel
+Flamel
+==============================
+[//]: # (Badges)
+[![Travis Build Status](https://travis-ci.com/xiki-tempula/flamel.svg?branch=master)](https://travis-ci.com/xiki-tempula/flamel)
+[![AppVeyor Build status](https://ci.appveyor.com/api/projects/status/REPLACE_WITH_APPVEYOR_LINK/branch/master?svg=true)](https://ci.appveyor.com/project/xiki-tempula/flamel/branch/master)
+[![codecov](https://codecov.io/gh/xiki-tempula/flamel/branch/master/graph/badge.svg)](https://codecov.io/gh/xiki-tempula/flamel/branch/master)
 
-The aim of the project is to develop a foundation for a new version of [alchemical-analysis](https://github.com/MobleyLab/alchemical-analysis)
-that uses the well tested [alchemlyb](https://github.com/alchemistry/alchemlyb) library.
+
+A command line interface for [alchemlyb](https://github.com/alchemistry/alchemlyb) to succeed [alchemical-analysis](https://github.com/MobleyLab/alchemical-analysis).
 
 # Installation
 1. Download and install alchemlyb
@@ -116,3 +121,13 @@ Alchemical Analysis with the same input files:
 alchemical-analysis offers information about the statistical inefficiencies of the input datasets.
 - **Uncorrelation threshold**
 In alchemical-analysis it is possible to specify a threshold for the number of samples to keep in the uncorrelation process.
+
+### Copyright
+
+Copyright (c) 2020, Zhiyi Wu
+
+
+#### Acknowledgements
+ 
+Project based on the 
+[Computational Molecular Science Python Cookiecutter](https://github.com/molssi/cookiecutter-cms) version 1.3.
